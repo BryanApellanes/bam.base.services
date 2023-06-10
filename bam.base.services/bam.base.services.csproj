@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\bam.base\bam.base\bam.base.csproj" />
+  </ItemGroup>
+
 </Project>
