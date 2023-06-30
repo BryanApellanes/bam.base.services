@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\bam.encryption\bam.encryption\bam.encryption\bam.encryption.csproj" />
     <ProjectReference Include="..\..\bam.base\bam.base\bam.base.csproj" />
   </ItemGroup>
 
