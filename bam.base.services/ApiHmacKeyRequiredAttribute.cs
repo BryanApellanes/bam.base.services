@@ -1,6 +1,7 @@
 /*
 	Copyright © Bryan Apellanes 2015  
 */
+using Bam;
 using Bam.Net.Encryption;
 using System;
 using System.Collections.Generic;
