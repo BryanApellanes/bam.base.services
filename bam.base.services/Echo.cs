@@ -73,7 +73,7 @@ namespace Bam.Net.ServiceProxy
         public virtual string TestCompoundParameter(TestObject test)
         {
             return string.Format("Name: {0}, Number: {1}, SubNumber: {2}, SubObject: {3}"
-                ._Format(test.Name, test.Number, test.SubNumber, test.SubObject.PropertiesToString()));
+                .Format(test.Name, test.Number, test.SubNumber, test.SubObject.PropertiesToString()));
         }
 
         public virtual EchoData TestObjectOut(string value, bool bp = false, int ip = 500)
