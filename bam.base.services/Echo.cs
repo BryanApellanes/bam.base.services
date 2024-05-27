@@ -5,10 +5,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Bam.Net.Encryption;
-using Bam.Net.ServiceProxy.Encryption;
+using Bam.Encryption;
+using Bam.ServiceProxy.Encryption;
 
-namespace Bam.Net.ServiceProxy
+namespace Bam.ServiceProxy
 {
     /// <summary>
     /// This class exists for testing

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bam.Net.Services
+namespace Bam.Services
 {
     /// <summary>
     /// Used to adorn a class that is used as an application service.
