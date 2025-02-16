@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Bam.Services
+﻿namespace Bam.Services
 {
     /// <summary>
     /// Used to adorn a class that should be added to a net core service collection as a singleton by a call to RegisterAppModules.
