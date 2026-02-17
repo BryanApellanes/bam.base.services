@@ -10,17 +10,17 @@ namespace Bam.ServiceProxy
         {
         }
 
-        public string Name { get; set; }
+        public string Name { get; set; } = null!;
         public int Number { get; set; }
         public int SubNumber { get; set; } // testing to see if the SubObject.SubNumber overrides this value on form post
 
-        SubObject _sub;
+        SubObject? _sub;
         object _subLock = new object();
         public SubObject SubObject
         {
             get
             {
-                return _subLock.DoubleCheckLock(ref _sub, () => new SubObject());
+                return _subLock.DoubleCheckLock(ref _sub, () => new SubObject())!;
             }
             set
             {
@@ -31,7 +31,7 @@ namespace Bam.ServiceProxy
 
     public class SubObject
     {
-        public string SubName { get; set; }
+        public string SubName { get; set; } = null!;
         public int SubNumber { get; set; }
     }
 }

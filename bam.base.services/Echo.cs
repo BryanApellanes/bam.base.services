@@ -12,7 +12,7 @@ namespace Bam.ServiceProxy
     /// </summary>
     public class EchoData
     {
-        public string StringProperty { get; set; }
+        public string StringProperty { get; set; } = null!;
         public bool BoolProperty { get; set; }
         public int IntProperty { get; set; }
     }
